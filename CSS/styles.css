@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-container{
+    display:flex;
+    justify-content:center;
+    margin-top: 4rem;
+
+}
+
+.container{
+    display: inline;
+    /* outline: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    margin-inline: 3rem;
+    text-align: left;
+    justify-content: center;
+}
+
+.welcome-back-header{
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+}
+
+.welcome-back-subtitle{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.left-container{
+    
+    
+}
+
+.input-text{
+    margin-inline:0;
+    border: none;
+    width:80%;
+    height: 1rem;
+    border-radius: 5%;
+}
+
+.input-text:focus{
+    border: none;
+    outline: none;
+    
+}
+
+.border{
+    width:400px;
+    border:3px solid transparent;
+    border-image: linear-gradient(90deg, rgba(29,93,94,1) 0%, rgba(29,93,94,1) 35%, rgba(133,171,160,1) 100%);
+    border-image-slice: 1;
+    padding: 25px;
+}
+
+.text-in{
+    border: 2px solid gray;
+    width: 90%;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px;
+    color: gray;
+    font-size: 12px;
+    margin: 1rem;
+    margin-inline: 0;
+}
+
+.text-in label{
+    padding-left: 0.1em;
+}
+
+.text-in:hover{
+    border: green 2px solid;
+}
+
+.button{
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem;
+    margin-left: 0;
+    margin-right: 2rem ;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+.login-btn{
+    background: linear-gradient(90deg, rgba(29,93,94,1) 0%, rgba(29,93,94,1) 35%, rgba(133,171,160,1) 100%);
+    color: white;
+}
+.login-btn:hover{
+    box-shadow: 10px black;
+}
+
+.signup-btn{
+    background-color: transparent;
+    border: solid 2px green;
+    
+}
+.signup-btn:hover{
+    border: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(29,93,94,1) 0%, rgba(29,93,94,1) 35%, rgba(133,171,160,1) 100%);
+}
+.right-container{
+    
+}
+
+.login-image{
+    width: 100%;
+}
