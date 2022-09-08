@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.searchbox-div{
+    width: 40%;
+}
+.searchbox{
+    padding:3px 5px;
+    /* border: 2px solid red; */
+    outline: 1px solid black;
+    display: inline-block;
+     border-radius: 8px; 
+    width: 100%;
+    opacity: 0.5;
+    height:100%;
+    box-shadow: 5px 5px grey;
+}
+.searchbox:hover{
+    box-shadow: 5px 5px black;
+}
+
+.searchtext{
+    width: 95%;
+    background:none;
+    border:none;
+   
+}
+.searchtext:focus{
+    outline:none;
+    border:none;
+}
+
+.btn{
+    background:none;
+    height: 5px;
+    width: 8px;
+    border-radius:12px;
+  border:none;
+    /* margin-left:290px; */
+    /* margin-right: 10px; */
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.nav-list{
+    list-style: none;   
+}
+.nav-list-item{
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+.type-nav{
+    font-family: Righteous;
+    display: inline-block;
+    text-align: center;
+    margin-left: 520px;
+}
+
+.icons{
+}
+
+.icons .nav-list{
+    margin-top: 10%;
+}
+
+.nav-logo{
+    margin: 0.5rem;
+}
+.banner1{
+   
+   
+    margin-top:40px;
+    width:100%;
+    height:430px;
+}
+
+.img-pool{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    margin:0px;
+    display: inline-block;
+    height:460px;
+    width:355px;
+    
+   
+}
+
+    .btn2{
+       float:right;
+       
+        border:2px solid black;
+        background-color: white;
+        box-shadow: 5px 5px grey;
+        text-align: center;
+        font-weight: bold;
+        font-size:17px;
+        font-family: 'Mukta', sans-serif;
+        height:70px;
+        width:200px;
+    }
+
+.banner-img{
+    height:100%;
+    width:363px;
+}
+
+.description{
+    margin-right: 1rem;
+    width: 40%;
+    padding: 1rem;
+    height: 200px;
+    outline: 1px solid black;
+    float: right;
+    z-index: 1000;
+    background-color: white;
+    position: relative;
+    margin-top: -200px;
+    box-shadow: 5px 5px grey;
+}
+
+.description h1{
+    font-family: righteous;
+    margin: 1rem;
+}
