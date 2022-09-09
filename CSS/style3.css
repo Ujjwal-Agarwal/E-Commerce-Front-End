@@ -10,7 +10,7 @@
 }
 
 .searchbox-div{
-    width: 40%;
+    width: 35%;
 }
 .searchbox{
     padding:3px 5px;
@@ -62,7 +62,8 @@
     font-family: Righteous;
     display: inline-block;
     text-align: center;
-    margin-left: 520px;
+    margin-left: 500px;
+    font-size: 1.25rem;
 }
 
 .icons{
@@ -75,12 +76,11 @@
 .nav-logo{
     margin: 0.5rem;
 }
+
 .banner1{
-   
-   
     margin-top:40px;
     width:100%;
-    height:430px;
+    height:490px;
 }
 
 .img-pool{
@@ -90,15 +90,12 @@
 .img{
     margin:0px;
     display: inline-block;
-    height:460px;
-    width:355px;
-    
-   
+    height:100%;
+    width:355px;   
 }
 
-    .btn2{
+.btn2{
        float:right;
-       
         border:2px solid black;
         background-color: white;
         box-shadow: 5px 5px grey;
@@ -108,7 +105,7 @@
         font-family: 'Mukta', sans-serif;
         height:70px;
         width:200px;
-    }
+}
 
 .banner-img{
     height:100%;
@@ -133,3 +130,56 @@
     font-family: righteous;
     margin: 1rem;
 }
+
+.description-number{
+    display: inline-block;
+    font-family: Satisfy;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-inline: 1rem;
+    color: gray;
+    opacity: 0.5;    
+}
+
+.banner-2{
+    margin-top: 5rem;
+    margin-inline: 1rem;
+    font-family: Righteous;
+}
+
+.banner-2-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-2-nav h2{
+    font-size: 2rem;
+}
+
+.banner-2-display{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-2-img{
+    margin: 1rem;
+    /* outline: 1px solid black; */
+    width: 20%;
+    height: 350px;
+    text-align: center;
+}
+.banner-2-img p{
+    opacity: 0.5;
+    font-size: 1rem;
+}
+
+.banner-2-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* .banner-2-nav div{
+    display: inline-block;
+    float: right;
+} */
+
