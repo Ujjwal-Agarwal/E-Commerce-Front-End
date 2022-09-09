@@ -133,8 +133,8 @@
 
 .description-number{
     display: inline-block;
-    font-family: Satisfy;
-    font-size: 2rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.9rem;
     margin-top: 20px;
     margin-inline: 1rem;
     color: gray;
@@ -153,33 +153,98 @@
 }
 
 .banner-2-nav h2{
-    font-size: 2rem;
+    font-size: 4rem;
+    text-shadow: 1px 1px grey;
 }
 
 .banner-2-display{
+    margin-top:40px;
     display: flex;
     justify-content: center;
+   ;
 }
 
 .banner-2-img{
     margin: 1rem;
-    /* outline: 1px solid black; */
+     /* outline: 1px solid black;  */
     width: 20%;
     height: 350px;
     text-align: center;
+    box-shadow: 5px 5px grey;
+
 }
+
+.banner-2-img:hover{
+    box-shadow: 6px 6px rgb(163, 164, 158);
+    border:2px solid rgb(157, 155, 155);
+}
+.banner-2-img h3{
+    margin-top:8px;
+}
+
 .banner-2-img p{
     opacity: 0.5;
     font-size: 1rem;
+    
 }
+
 
 .banner-2-img img{
     height: 100%;
     width: 100%;
 }
+.delivery{
+    /* border:4px solid purple; */
+    display:flex;
+    margin-top:80px;
+}
+.shipimg{
+    height:600px;
+    display:inline-block;
+    width:50%;
+    /* border:2px solid red; */
+}
+.shipping{
+    padding:40px;
+    display:inline-block;
+    width:50%;
+    margin-left:200px;
+/* border:2px solid red; */
+display:
+}
+.no{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-top:20px;
+    font-size:17px;
+    margin-left:0px;
+ 
+}
 
-/* .banner-2-nav div{
-    display: inline-block;
-    float: right;
-} */
+.del{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+.del li{
+    padding:4px;
+    /* border:2px solid red; */
+    margin-left:17px;
+    font-size:22px;
+    
+    color: rgb(13, 13, 12)
 
+}
+
+.sit{
+    font-size: 50px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+.shipimg img{
+    box-shadow: 6px 6px rgb(209, 178, 178);
+    margin-left:150px;
+    height:100%;
+    width:90%;
+}
