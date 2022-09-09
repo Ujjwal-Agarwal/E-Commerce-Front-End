@@ -97,7 +97,7 @@
 }
 
 .btn2{
-       float:right;
+        float:right;
         border:2px solid black;
         background-color: white;
         box-shadow: 5px 5px grey;
@@ -107,6 +107,8 @@
         font-family: 'Mukta', sans-serif;
         height:70px;
         width:200px;
+        z-index: 1001;
+        position: relative;
 }
 
 .banner-img{
